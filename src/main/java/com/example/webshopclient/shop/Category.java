@@ -1,4 +1,4 @@
-package com.example.webshopclient;
+package com.example.webshopclient.shop;
 
 public enum Category {
     COMPUTER {

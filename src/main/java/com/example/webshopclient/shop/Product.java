@@ -1,5 +1,6 @@
-package com.example.webshopclient;
+package com.example.webshopclient.shop;
 
+import com.example.webshopclient.shop.Category;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,11 +12,12 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class Product {
 
-    public long id;
 
     public String name;
 
     public BigDecimal price;
+
+    public int quantity;
 
     public Category category;
 
